@@ -1,0 +1,15 @@
+#!/bin/bash
+#PBS -q smpm
+#PBS -l ncpus=20
+#PBS -l mem=800gb
+set -euo pipefail
+cd ${PBS_O_WORKDIR}
+source ${HOME}/anaconda3/etc/profile.d/conda.sh
+conda activate muscle
+
+INDIR="hits-fasta/rho"
+FASTA="putative-rho_mts4000_blosum62_0.05_0.002_ch0.7"
+
+OUTDIR="aligned/rho"
+
+muscle -align $INDIR"/"$FASTA".fasta" -output $OUTDIR"/"$FASTA"_aligned-muscle.fasta"

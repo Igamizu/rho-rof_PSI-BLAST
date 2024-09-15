@@ -1,0 +1,11 @@
+#!/bin/bash
+#PBS -q small
+#PBS -l ncpus=16
+#PBS -l mem=96gb
+set -euo pipefail
+cd ${PBS_O_WORKDIR}
+
+INDIR="db"
+INPUT="chosen-bacteria_CDS_nucleotide_exDup"
+
+makeblastdb -in $INDIR"/"$INPUT".fasta" -out $INPUT -dbtype nucl -parse_seqids -hash_index

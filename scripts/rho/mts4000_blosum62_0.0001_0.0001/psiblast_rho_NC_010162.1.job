@@ -1,0 +1,30 @@
+#!/bin/bash
+#PBS -q medium
+#PBS -l ncpus=6
+#PBS -l mem=24gb
+set -euo pipefail
+cd ${PBS_O_WORKDIR}
+
+INDIR="queries/rho"
+QUERY="NC_010162.1"
+
+DB="db/chosen-bacteria_proteome_exDup"
+ITER="bangou"
+MTS="4000"
+MATRIX="BLOSUM62"
+EVALUE="0.0001"
+PSSME="0.0001"
+
+OUTDIR="results/rho/mts"$MTS"_"$MATRIX"_"$EVALUE"_"$PSSME
+OUTPUT=$QUERY"_"$ITER
+
+if [ ! -d $OUTDIR ]; then
+    mkdir $OUTDIR $OUTDIR"/checkpoint"
+fi
+
+psiblast -query $INDIR"/"$QUERY".fasta" -db $DB -num_threads 12 \
+        -evalue $EVALUE -inclusion_ethresh $PSSME -matrix $MATRIX  \
+        -max_target_seqs $MTS \
+        -num_iterations $ITER \
+        -outfmt "7 qseqid sseqid pident qlen slen qcovs length mismatch gapopen qstart qend sstart send evalue bitscore" \
+        -out $OUTDIR"/"$OUTPUT".txt" -out_pssm $OUTDIR"/checkpoint/"$OUTPUT"_checkpoint.txt"

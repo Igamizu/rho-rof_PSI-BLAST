@@ -1,0 +1,11 @@
+
+
+Building a new DB, current time: 08/01/2023 14:42:39
+New DB name:   /mnt/gpfsA/home/t19045mi/projects/graduate/230420_rho_rof/psiblast_ver2/chosen-bacteria_CDS_nucleotide_exDup
+New DB title:  db/chosen-bacteria_CDS_nucleotide_exDup.fasta
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 15465459 sequences in 306.429 seconds.
+
+

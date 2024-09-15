@@ -1,0 +1,16 @@
+#!/bin/bash
+#PBS -q medium
+#PBS -l ncpus=6
+#PBS -l mem=24gb
+set -euo pipefail
+cd ${PBS_O_WORKDIR}
+
+INDIR="results/rho/mts4000_BLOSUM62_0.05_0.002/last-iteration"
+INPUT="rho_mts4000_blosum62_0.05_0.002_hit-header.txt"
+
+DB="db/chosen-bacteria_CDS_nucleotide_exDup"
+
+OUTDIR="hits-fasta/rho"
+OUTPUT="putative-rho_mts4000_blosum62_0.05_0.002_nucleotide.fasta"
+
+blastdbcmd -db $DB -entry_batch $INDIR"/"$INPUT > $OUTDIR"/"$OUTPUT

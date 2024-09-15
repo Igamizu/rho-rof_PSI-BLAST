@@ -1,0 +1,13 @@
+Vibrio cholerae	A0A0H3ADN9	https://www.uniprot.org/uniprotkb/A0A0H3ADN9/entry
+Spongiibacter sp	A0A2D7WHH1	https://www.uniprot.org/uniprotkb/A0A2D7WHH1/entry
+Photobacterium kishitanii	A0A0B7JK74	https://www.uniprot.org/uniprotkb/A0A0B7JK74/entry
+Pseudoalteromonas fuliginea	A0A063KWA5	
+Arsukibacterium ikkense	A0A0M2V2K1	https://www.uniprot.org/uniprotkb/A0A0M2V2K1/entry
+Methylococcaceae bacterium	A0A257NBF5	https://www.uniprot.org/uniprotkb/A0A257NBF5/entry
+Methylomicrobium album	H8GH92	https://www.uniprot.org/uniprotkb/H8GH92/entry
+Mycobacterium tuberculosis	A0A1K3H6J5	https://www.uniprot.org/uniprotkb/A0A1K3H6J5/entry
+Yersinia pestis	A0A0E1NSG3	https://www.uniprot.org/uniprotkb/A0A0E1NSG3/entry
+Salmonella typhimurium	E8XIQ7	https://www.uniprot.org/uniprotkb/E8XIQ7/entry
+Enterobacter cloacae	A0A144RC60	https://www.uniprot.org/uniprotkb/A0A144RC60/entry
+Klebsiella pneumoniae	A0A333FHM5	https://www.uniprot.org/uniprotkb/A0A333FHM5/entry
+Escherichia coli	P0AFW8	https://www.uniprot.org/uniprotkb/P0AFW8/entry

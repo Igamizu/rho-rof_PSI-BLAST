@@ -1,0 +1,13 @@
+Vibrio cholerae	A0A0H3ADN9	9	451
+Spongiibacter sp	A0A2D7WHH1	10	454
+Photobacterium kishitanii	A0A0B7JK74	10	452
+Pseudoalteromonas fuliginea	A0A063KWA5	9	453
+Arsukibacterium ikkense	A0A0M2V2K1	13	453
+Methylococcaceae bacterium	A0A257NBF5	9	458
+Methylomicrobium album	H8GH92	7	457
+Mycobacterium tuberculosis	A0A1K3H6J5	6	465
+Yersinia pestis	A0A0E1NSG3	6	463
+Salmonella typhimurium	E8XIQ7	5	464
+Enterobacter cloacae	A0A144RC60	7	465
+Klebsiella pneumoniae	A0A333FHM5	6	465
+Escherichia coli	P0AFW8	7	464
