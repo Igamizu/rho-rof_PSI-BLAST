@@ -1,0 +1,7 @@
+species	ID	db	URL
+ Escherichia coli (strain K12)	P0A8K5	Uni	https://www.uniprot.org/uniprotkb/P0A8K5/entry
+ Vibrio cholerae	A0A085S1G0	Uni	https://www.uniprot.org/uniprotkb/A0A085S1G0/entry
+ Photobacterium kishitanii	A0A2T3QSX9	Uni	https://www.uniprot.org/uniprotkb/A0A2T3QSX9/entry
+ Salmonella typhimurium	A0A3W0MKT5	Uni	https://www.uniprot.org/uniprotkb/A0A3W0MKT5/entry
+ Enterobacter cloacae	A0A144R1I9	Uni	https://www.uniprot.org/uniprotkb/A0A144R1I9/entry
+ Klebsiella pneumoniae	A0A332ZKC8	Uni	https://www.uniprot.org/uniprotkb/A0A332ZKC8/entry
