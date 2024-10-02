@@ -6,6 +6,8 @@
 #$ -l mem_req=8G
 #$ -pe def_slot 4
 
+cd ${PBS_O_WORKDIR}
+
 GENE="yaeP"
 INDIR="queries/"$GENE
 QUERY="P0A8K5"
