@@ -7,4 +7,5 @@
 #$ -pe def_slot 4
 
 echo $PWD
-echo $PWD >> a.txt
+ls -l
+find .
