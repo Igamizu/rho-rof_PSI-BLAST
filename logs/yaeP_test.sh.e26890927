@@ -1,0 +1,2 @@
+/var/spool/age/it017/job_scripts/26890927: 269: cd: can't cd to /var/spool/age/it017/job_scripts/26890927: 370: /opt/pkg/intel/oneapi
+/var/spool/age/it017/job_scripts/26890927: 8: set: Illegal option -o pipefail
