@@ -9,15 +9,16 @@
 cd ${PBS_O_WORKDIR}
 
 GENE="yaeP"
-INDIR="queries/"$GENE
+WORK=$PWD"/"
+INDIR=$WORK"queries/"$GENE
 QUERY="P0A8K5"
 
-DB="db/chosen-bacteria_proteome_exDup"
+DB=$WORK"db/chosen-bacteria_proteome_exDup"
 ITER="1"
 MTS="4000"
 MATRIX="BLOSUM45"
 
-OUTDIR="results/"$GENE"/mts"$MTS"_"$MATRIX
+OUTDIR=$WORK"results/"$GENE"/mts"$MTS"_"$MATRIX
 OUTPUT=$QUERY"_"$ITER
 
 if [ ! -d $OUTDIR ]; then
