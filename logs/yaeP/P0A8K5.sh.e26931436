@@ -1,0 +1,2 @@
+/var/spool/age/at084/job_scripts/26931436: 269: cd: can't cd to /var/spool/age/at084/job_scripts/26931436: 370: /opt/pkg/intel/oneapi
+Warning: [psiblast] Query_1 sp|P0A8K5|YAEP_EC.. : Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
