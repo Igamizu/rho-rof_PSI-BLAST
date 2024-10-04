@@ -9,10 +9,10 @@
 GENE="yaeP"
 WORK=$PWD"/"
 INDIR=$WORK"queries/"$GENE
-QUERY="P0A8K5"
+QUERY="A0A085S1G0"
 
 DB=$WORK"db/chosen-bacteria_proteome_exDup"
-ITER="1"
+ITER="20"
 MTS="4000"
 MATRIX="BLOSUM45"
 
